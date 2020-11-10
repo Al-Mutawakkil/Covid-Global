@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+    <LinearLayout
+        android:id="@+id/globe_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_flag_circle"
+            android:layout_marginRight="5dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/ic_launcher_round"/>
+
+        <TextView
+            android:id="@+id/tv_countryName"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:layout_weight="4"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:text="Country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_countryTotalCase"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:layout_weight="4"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:text="Total Case"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_countryTotalRecovered"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:layout_weight="4"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:text="Recovered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_countryTotalDeath"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:layout_weight="4"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:text="Death"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>
